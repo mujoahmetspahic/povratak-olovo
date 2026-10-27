@@ -1,0 +1,16 @@
+name = "povratak-cms-test"
+main = "worker.js"
+compatibility_date = "2026-10-27"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "povratak-content"
+database_id = "UNESI_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "PHOTOS"
+bucket_name = "povratak-photos"
